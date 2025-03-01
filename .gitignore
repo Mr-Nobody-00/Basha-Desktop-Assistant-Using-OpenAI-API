@@ -1,1 +1,5 @@
 env
+model.pkl
+vectorizer.pkl
+main.py
+assistant.py

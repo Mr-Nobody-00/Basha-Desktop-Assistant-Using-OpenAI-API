@@ -21,7 +21,7 @@ def get_best_match(command_text):
     command_list = df["Command"].tolist()
     
     best_match, score = process.extractOne(command_text, command_list)
-    if score > 80:  # Only consider matches with high similarity
+    if score > 80:
         return best_match
     return None
 
@@ -46,5 +46,5 @@ def process_command(command_text):
         print(f"Error executing command: {e}")
 
 # Example usage
-test_command = "the wifi is so annoying could you please turn them off and also I need you to open my favourite browser"
+test_command = "ok baasha I like to open my chrome for me "
 process_command(test_command)

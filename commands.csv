@@ -1,8 +1,45 @@
 Command,Action,Path
 open browser,open_browser,C:\Program Files\Google\Chrome\Application\chrome.exe
+open firefox,open_firefox,C:\Program Files\Mozilla Firefox\firefox.exe
 play music,play_music,C:\Users\User\Music\playlist.mp3
-shutdown system,shutdown_system,C:\Windows\System32\shutdown.exe -s -t 0
-check weather,check_weather,scripts/check_weather.py
-find nearest restaurant,find_restaurant,scripts/find_restaurant.py
-turn off wifi,turn_off_wifi,scripts/turn_off_wifi.bat
-open spotify,open_spotify,C:\Program|Spotify
+open notepad,open_notepad,notepad.exe
+shutdown system,shutdown_system,shutdown /s /t 0
+restart system,restart_system,shutdown /r /t 0
+open calculator,open_calculator,calc.exe
+open command prompt,open_cmd,cmd.exe
+open task manager,open_task_manager,taskmgr.exe
+open file explorer,open_explorer,explorer.exe
+lock system,lock_system,"rundll32.exe user32.dll,LockWorkStation"
+open settings,open_settings,ms-settings:
+check weather,check_weather,weather_api
+search wikipedia,search_wikipedia,wikipedia_api
+search google,search_google,https://www.google.com/search?q=
+open youtube,open_youtube,https://www.youtube.com
+send email,send_email,email_api
+open whatsapp,open_whatsapp,C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+open spotify,open_spotify,C:\Users\User\AppData\Roaming\Spotify\Spotify.exe
+take screenshot,take_screenshot,screenshot_script.py
+read latest news,read_news,news_api
+set alarm,set_alarm,alarm_script.py
+tell joke,tell_joke,jokes_api
+translate text,translate_text,translation_api
+open facebook,open_facebook,https://www.facebook.com
+open twitter,open_twitter,https://www.twitter.com
+check battery status,check_battery,battery_status_script.py
+empty recycle bin,empty_recycle_bin,cleanmgr.exe
+increase volume,increase_volume,volume_control_script.py up
+decrease volume,decrease_volume,volume_control_script.py down
+mute volume,mute_volume,volume_control_script.py mute
+unmute volume,unmute_volume,volume_control_script.py unmute
+pause music,pause_music,media_control_script.py pause
+resume music,resume_music,media_control_script.py resume
+skip track,skip_track,media_control_script.py next
+previous track,previous_track,media_control_script.py prev
+open netflix,open_netflix,https://www.netflix.com
+open amazon,open_amazon,https://www.amazon.com
+open instagram,open_instagram,https://www.instagram.com
+open linkedin,open_linkedin,https://www.linkedin.com
+read notifications,read_notifications,notifications_script.py
+show calendar,show_calendar,calendar_script.py
+create note,create_note,notepad.exe new_note.txt
+open vs code,open_vs_code,C:\Users\User\AppData\Local\Programs\Microsoft VS Code\Code.exe

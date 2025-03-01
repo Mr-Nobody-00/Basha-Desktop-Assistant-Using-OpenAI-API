@@ -1,8 +1,0 @@
-Command,Action,Path
-open browser,open_browser,C:\Program Files\Google\Chrome\Application\chrome.exe
-play music,play_music,C:\Users\User\Music\playlist.mp3
-shutdown system,shutdown_system,C:\Windows\System32\shutdown.exe -s -t 0
-check weather,check_weather,scripts/check_weather.py
-find nearest restaurant,find_restaurant,scripts/find_restaurant.py
-turn off wifi,turn_off_wifi,scripts/turn_off_wifi.bat
-open spotify,open_spotify,C:\Program|Spotify
