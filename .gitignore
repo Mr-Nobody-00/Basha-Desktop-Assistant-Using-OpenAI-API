@@ -1,5 +1,5 @@
 env
 model.pkl
 vectorizer.pkl
-main.py
+checkmodel.py
 assistant.py
